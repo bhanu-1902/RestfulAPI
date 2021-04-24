@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Apple",
+        "wholePrice": 12.99,
+        "slicePrice": 4.99,
+        "sliceCalories": 60,
+        "imageUrl": "images/apple.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Cherry",
+        "wholePrice": 29.99,
+        "slicePrice": 12.99,
+        "sliceCalories": 110,
+        "imageUrl": "images/cherry.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Kiwi",
+        "wholePrice": 99.99,
+        "slicePrice": 54.99,
+        "sliceCalories": 10,
+        "imageUrl": "images/kiwi.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Grapes",
+        "wholePrice": 34.99,
+        "slicePrice": 14.99,
+        "sliceCalories": 50,
+        "imageUrl": "images/grapes.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Orange",
+        "wholePrice": 24.99,
+        "slicePrice": 6.99,
+        "sliceCalories": 20,
+        "imageUrl": "images/orange.jpg"
+    }
+]

@@ -1,0 +1,4 @@
+********************************************************************************
+Date/Time: 4/20/2021
+Exception info: {"status":500,"statusText":"Internal Server Error","message":"ENOENT: no such file or directory, open 'D:\\Harshit Bhanushali\\trailAPI\\assets\\pi.json'","error":{"errno":-4058,"call":"open","code":"INTERNAL_SERVER_ERROR","message":"ENOENT: no such file or directory, open 'D:\\Harshit Bhanushali\\trailAPI\\assets\\pi.json'"},"requestInfo":{"hostname":"localhost","path":"/api/"}}
+********************************************************************************
