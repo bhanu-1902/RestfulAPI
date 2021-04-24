@@ -1,0 +1,140 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [ {
+            "type": "node",
+            "request": "launch",
+            "name": "cucumber",
+            "program": "${workspaceFolder}/cucumber.js",
+            "args": [],
+            "env": {
+                "AW_PROXY_SERVER": "http://awc/42/wd1210",
+                "BUILD_NUMBER": "123",
+                "DEBUG": "",
+                "EMAIL_TO": "denny.chitwood@siemens.com",
+                "JOB_NAME": "Cucumber",
+                "JOB_URL": "https://cii6s073:8080/job/Cucumber/",
+                "REF_LABEL": "aw4.2.0.0.2019042100",
+                "REF_UNIT_DIR": "D:\\udu\\ref",
+                // "TAGS": "--tags @vmValidation",
+                "TAGS": "ALL",
+                "TEMP": "C:\\udu\\j\\temp_123",
+                "TMP": "C:\\udu\\j\\temp_123",
+                "WORKSPACE": "C:\\udu\\j"
+            },
+            "cwd": "${workspaceFolder}",
+            "outputCapture": "std",
+            "stopOnEntry": false
+        }, {
+            "type": "node",
+            "request": "launch",
+            "name": "deployLatest",
+            "program": "${workspaceFolder}/deployLatest.js",
+            "args": [],
+            "env": {
+                "AW_PROXY_SERVER": "http://awc/50/wd1230",
+                "BUILD_NUMBER": "234",
+                "CP_NUMBER": "PLM603355",
+                "DEBUG": "",
+                "JOB_NAME": "Cucumber",
+                "JOB_URL": "https://cii6s073:8080/job/Cucumber/",
+                "NPM_INSTALL": "afx@next",
+                "REF_LABEL": "aw5.0.0.0.2020012100",
+                "REF_UNIT_DIR": "D:\\udu\\ref",
+                "TAGS": "ALL",
+                "TEMP": "C:\\udu\\j\\temp",
+                "WORKSPACE": "C:\\udu\\j"
+            },
+            "cwd": "${workspaceFolder}",
+            "outputCapture": "std",
+            "stopOnEntry": false
+        }, {
+            "type": "node",
+            "request": "launch",
+            "name": "buildGitLab",
+            "program": "${workspaceFolder}/buildGitLab.js",
+            "args": [],
+            "env": {
+                "AW_PROXY_SERVER": "http://awc/50/123/t4",
+                "BUILD_NUMBER": "234",
+                "BUILD_URL": "https://cii6s073:8080/job/aw4.2_GitLab_CI",
+                "DEBUG": "",
+                "JOB_NAME": "buildGitLab",
+                "MERGE_REQUEST_IID": "1234567",
+                "PROJECT_URL": "https://gitlab.industrysoftware.automation.siemens.com/Apollo/afx",
+                "REF_LABEL": "aw5.0.0.0.2020012100",
+                "WORKSPACE": "C:/udu/j"
+            },
+            "cwd": "C:/udu/j",
+            "outputCapture": "std",
+            "stopOnEntry": false
+        }, {
+            "type": "node",
+            "request": "launch",
+            "name": "purge",
+            "program": "${workspaceFolder}/purge.js",
+            "args": [],
+            "env": {
+                "DEBUG": ""
+            },
+            "cwd": "C:/udu/dev",
+            "outputCapture": "std",
+            "stopOnEntry": false
+        }, {
+            "type": "node",
+            "request": "launch",
+            "name": "test",
+            "program": "${workspaceFolder}/test.js",
+            "args": [],
+            "env": {
+                "DEBUG": "",
+                "LOG_LEVEL": "verbose"
+            },
+            "cwd": "C:/udu/dev/aw42",
+            "outputCapture": "std",
+            "stopOnEntry": false
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "test2",
+            "program": "${workspaceFolder}/test2.js",
+            "args": [],
+            "env": {
+                "DEBUG": "",
+                "LOG_LEVEL": "",
+                "RUN_HISTORY": "MR"
+            },
+            "cwd": "${workspaceFolder}",
+            "outputCapture": "std",
+            "stopOnEntry": false
+        }, {
+            "type": "node",
+            "request": "launch",
+            "name": "testVM",
+            "program": "${workspaceFolder}/vmtest/testVM.js",
+            "args": [],
+            "env": {
+                "DEBUG": "",
+                "EMAIL_TO": "denny.chitwood@siemens.com",
+                "LOG_LEVEL": "verbose",
+                "WORKSPACE": "C:\\udu"
+            },
+            "cwd": "${workspaceFolder}/vmtest",
+            "outputCapture": "std",
+            "stopOnEntry": false
+        }, {
+            "type": "node",
+            "request": "launch",
+            "name": "test_submitCI",
+            "program": "${workspaceFolder}/test_submitCI.js",
+            "args": [],
+            "env": {},
+            "cwd": "${workspaceFolder}",
+            "outputCapture": "std",
+            "stopOnEntry": false
+        }
+    ]
+}

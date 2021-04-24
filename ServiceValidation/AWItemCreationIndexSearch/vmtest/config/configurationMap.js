@@ -1,0 +1,1 @@
+define(function(){return{"default":{"viewmodel":"*ViewModel"},"bundle":{},"dynamicConfigRepoConfiguration":{}};});

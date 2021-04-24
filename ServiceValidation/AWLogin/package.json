@@ -1,0 +1,28 @@
+{
+    "name": "awclogincheck",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "git@gitlab.industrysoftware.automation.siemens.com:Environments/awclogincheck.git"
+    },
+    "dependencies": {
+        "fs-extra": "^7.0.1",
+        "requirejs": "^2.3.6",
+        "superagent": "^5.2.2",
+        "winston": "^3.2.1"
+    },
+    "devDependencies": {},
+    "optionalDependencies": {
+        "fsevents": "1.2.9"
+    },
+    "bundledDependencies": [
+        "fs-extra",
+        "requirejs",
+        "superagent",
+        "winston"
+    ],
+    "_comment_fsevents": "https://github.com/fsevents/fsevents/issues/301",
+    "scripts": {},
+    "author": "Siemens Product Lifecycle Management Software Inc.",
+    "license": "UNLICENSED"
+}

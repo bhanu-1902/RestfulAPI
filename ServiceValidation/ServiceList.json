@@ -1,0 +1,101 @@
+{
+    "linux":{
+        "tc":{
+        "Teamcenter Action Manager Service":{
+            "path":"NA"
+        },
+        "Teamcenter 4GD Change Detection Service":{
+            "path":"NA"
+        },
+        "Teamcenter FSC Service":{
+            "path":"/apps/tc/tcDir/TR/fsc/rc.ugs.FSC_host_yytcadm"
+        },
+        "Teamcenter LIS Service":{
+            "path":"NA"
+        },
+        "Teamcenter Multisite Collaboration IDSM Service":{
+            "path":"NA"
+        },
+        "Teamcenter Multisite Collaboration NobleNet Portmapper Service":{
+            "path":"NA"
+        },
+        "Teamcenter Multisite Collaboration ODS Service":{
+            "path":"NA"
+        },
+        "Teamcenter Schedule Management Service":{
+            "path":"NA"
+        },
+        "Teamcenter Server Manager TC_PoolA":{
+            "path":"/apps/tc/tcDir/TR/pool_manager/confs/TC/rc.tc.mgr_TC_PoolA"
+        },
+        "Teamcenter Shared Metadata Cache Service":{
+            "path":"NA"
+        },
+        "Teamcenter Subscription Manager Service":{
+            "path":"NA"
+        },
+        "Teamcenter Task Monitor Service":{
+            "path":"NA"
+        },
+        "Teamcenter Tessellation Service":{
+            "path":"NA"
+        },
+        "IDOL_TC":{
+            "path":"NA"
+        },
+        "FSF_TC":{
+            "path":"NA"
+        }
+        },
+        "aw":{
+            
+        },
+        "appServer":{
+            "testUrl":"http://localhost:7001/tc/controller/test",
+            "Weblogic":"weblogic.service",
+            "Tomcat":"tomcat.service",
+            "JBoss":"jboss.service",
+            "Wildfly":"wildfly.srrvice",
+            "IIS":""
+        },
+        "database":{
+            "SQL":"",
+            "Oracle":""
+        }
+
+    },
+    "windows":{
+        "tc":{
+            "Teamcenter Action Manager Service":"Actionmgrd",
+            "Teamcenter 4GD Change Detection Service":"4gd_change_detection_service",
+            "Teamcenter FSC Service":"Teamcenter FSC Service",
+            "Teamcenter LIS Service":"Teamcenter LIS Service",
+            "Teamcenter Multisite Collaboration IDSM Service":"idsm",
+            "Teamcenter Multisite Collaboration NobleNet Portmapper Service":"gs_portmapper",
+            "Teamcenter Multisite Collaboration ODS Service":"Ods",
+            "Teamcenter Schedule Management Service":"schmgtwfd",
+            "Teamcenter Server Manager TC_PoolA":"Teamcenter Server Manager TC_PoolA",
+            "Teamcenter Shared Metadata Cache Service":"shared_server_metadata_cache_mgr",
+            "Teamcenter Subscription Manager Service":"Subscripmgrd",
+            "Teamcenter Task Monitor Service":"Taskmonitor",
+            "Teamcenter Tessellation Service":"tess_server",
+            "IDOL_TC":"IDOL_TC",
+            "FSF_TC":"FSF_TC"
+        },
+        "aw":{
+                
+        },
+        "appServer":{
+            "testUrl":"http://host:7001/tc/controller/test",
+            "Weblogic_tc_AdminServer":"",
+            "Tomcat":""
+        }
+    },
+    "fms":{
+        "port":"4544",
+        "testUrl":"FMSMasterConfigFileRequest"
+    },
+    "ServiceList": ["Teamcenter Action Manager Service", "Teamcenter 4GD Change Detection Service", "Teamcenter FSC Service", "Teamcenter LIS Service", "Teamcenter Multisite Collaboration IDSM Service", "Teamcenter Multisite Collaboration NobleNet Portmapper Service", "Teamcenter Multisite Collaboration ODS Service", "Teamcenter Schedule Management Service", "Teamcenter Server Manager TC_PoolA", "Teamcenter Shared Metadata Cache Service", "Teamcenter Subscription Manager Service", "Teamcenter Task Monitor Service", "Teamcenter Tessellation Service", "IDOL_TC", "FSF_TC"],
+    "WebServerList": ["Tomcat", "Weblogic", "Wildfly", "JBoss", "IIS"]
+
+}
