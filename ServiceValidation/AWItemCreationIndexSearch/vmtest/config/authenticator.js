@@ -1,1 +1,0 @@
-define(['js/configurationService'],function(cfgSvc){cfgSvc.add('authenticator',{"tcAuthenticator":{"dep":"js/tcAuthenticator"}});});
